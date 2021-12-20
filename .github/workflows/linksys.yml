@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: linksys_e8450
+name: linksys_e8350
 
 on:
   repository_dispatch:
