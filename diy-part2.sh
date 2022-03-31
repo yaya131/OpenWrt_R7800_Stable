@@ -21,7 +21,7 @@ git clone https://github.com/sirpdboy/luci-app-netdata.git package/luci-app-netd
 git clone https://github.com/sirpdboy/luci-app-poweroffdevice.git package/luci-app-poweroffdevice
 git clone https://github.com/sirpdboy/luci-app-autotimeset.git package/luci-app-autotimeset
 
-git clone https://github.com/kiddin9/openwrt-packages.git package/openwrt-packages
+#git clone https://github.com/kiddin9/openwrt-packages.git package/openwrt-packages
 
 
 #修正连接数（by ベ七秒鱼ベ）
