@@ -1,4 +1,4 @@
-新增ipq806x系列linksys.config是默认编译8350固件！如果需要编译linksys的ipq806x其他机型，请fork本项目，进入配置文件linksys.config。然后把#删除即可！举例子：#CONFIG_TARGET_ipq806x_generic_DEVICE_linksys_ea8500=y  只需要删除前面的#即可编译8500该机型！非常的简单！
+新增AX6S官方openwrt最新测试内核5.15的编译！
 
 
 集成全部USB网卡驱动，支持安卓USB共享网络！
