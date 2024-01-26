@@ -20,10 +20,10 @@ jobs:
       #编译，AX6包含AX3600通用配置
       OWRT_TARGET: Redmi-AX6
       #默认主题
-      OWRT_THEME: design
+      OWRT_THEME: bootstrap
       #默认主机名
-      #OWRT_NAME: CMCC-RAX3000M
-      OWRT_NAME: Xiaomi-AX3600
+      OWRT_NAME: CMCC-RAX3000M
+      #OWRT_NAME: Xiaomi-AX3600
       #默认密码，仅作展示，更改无效
       OWRT_PW: password
       #默认地址
