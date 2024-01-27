@@ -297,7 +297,7 @@ CONFIG_PACKAGE_kmod-fs-ext4=y
 CONFIG_PACKAGE_mount-utils=y
 CONFIG_PACKAGE_kmod-fs-nfsd=y
 CONFIG_PACKAGE_cgroupfs-mount=y
-
+CONFIG_PACKAGE_kmod-fuse=y
 
 
 # CONFIG_PACKAGE_kmod-fs-ksmbd is not set
