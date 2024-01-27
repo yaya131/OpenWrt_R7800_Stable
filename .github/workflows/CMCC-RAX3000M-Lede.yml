@@ -17,7 +17,7 @@ jobs:
     #调用公用编译核心OWRT-CORE.yml
     uses: ./.github/workflows/OWRT-CORE.yml
     with:
-      #编译，AX6包含AX3600通用配置
+      #编译，RAX3000M通用配置
       OWRT_TARGET: mt798x
       #默认主题
       OWRT_THEME: bootstrap
