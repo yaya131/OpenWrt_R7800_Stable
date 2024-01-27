@@ -1,5 +1,5 @@
 #CI项目名
-name: Redmi-AX6-Lede
+name: CMCC-RAX3000M-Lede
 
 on:
   #自动编译：每天早上4点
@@ -18,7 +18,7 @@ jobs:
     uses: ./.github/workflows/OWRT-CORE.yml
     with:
       #编译，AX6包含AX3600通用配置
-      OWRT_TARGET: Redmi-AX6
+      OWRT_TARGET: mt798x
       #默认主题
       OWRT_THEME: bootstrap
       #默认主机名
