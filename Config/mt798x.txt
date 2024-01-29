@@ -1,6 +1,10 @@
 CONFIG_TARGET_mediatek=y
 CONFIG_TARGET_mediatek_mt7981=y
+#默认编译
 CONFIG_TARGET_mediatek_mt7981_DEVICE_cmcc_rax3000m=y
+#emmc版本默认不编译
+# CONFIG_TARGET_mediatek_mt7981_DEVICE_cmcc_rax3000m-emmc is not set
+
 CONFIG_DEVEL=y
 CONFIG_TOOLCHAINOPTS=y
 CONFIG_BUSYBOX_CUSTOM=y
