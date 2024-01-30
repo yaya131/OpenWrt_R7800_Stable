@@ -292,6 +292,28 @@ CONFIG_PACKAGE_kmod-usb2=y
 # CONFIG_PACKAGE_kmod-usb2-pci is not set
 CONFIG_PACKAGE_kmod-usb3=y
 
+
+# CONFIG_PACKAGE_kmod-fs-btrfs is not set
+CONFIG_PACKAGE_kmod-fs-exfat=y
+# CONFIG_PACKAGE_kmod-fs-exportfs is not set
+CONFIG_PACKAGE_kmod-fs-ext4=y
+CONFIG_PACKAGE_kmod-fs-f2fs=y
+CONFIG_PACKAGE_kmod-fs-nfs=y
+CONFIG_PACKAGE_kmod-fs-nfs-common=y
+CONFIG_PACKAGE_kmod-fs-nfs-v3=y
+CONFIG_PACKAGE_kmod-fs-nfs-v4=y
+# CONFIG_PACKAGE_kmod-fs-nfsd is not set
+# CONFIG_PACKAGE_kmod-fs-ntfs is not set
+
+CONFIG_PACKAGE_kmod-fs-ntfs3=y
+
+# CONFIG_PACKAGE_kmod-fs-reiserfs is not set
+CONFIG_PACKAGE_kmod-fs-squashfs=y
+# CONFIG_PACKAGE_kmod-fs-udf is not set
+CONFIG_PACKAGE_kmod-fs-vfat=y
+# CONFIG_PACKAGE_kmod-fs-virtiofs is not set
+# CONFIG_PACKAGE_kmod-fs-xfs is not set
+
 # CONFIG_PACKAGE_kmod-fs-antfs is not set
 CONFIG_PACKAGE_kmod-fs-exfat=y
 # CONFIG_PACKAGE_kmod-fs-ntfs is not set
@@ -299,7 +321,7 @@ CONFIG_PACKAGE_kmod-fs-vfat=y
 CONFIG_PACKAGE_kmod-fs-exportfs=y
 CONFIG_PACKAGE_kmod-fs-ext4=y
 CONFIG_PACKAGE_mount-utils=y
-CONFIG_PACKAGE_kmod-fs-nfsd=y
+# CONFIG_PACKAGE_kmod-fs-nfsd is not set
 CONFIG_PACKAGE_cgroupfs-mount=y
 CONFIG_PACKAGE_kmod-fuse=y
 
@@ -311,7 +333,7 @@ CONFIG_PACKAGE_luci-app-ksmbd=y
 
 
 CONFIG_PACKAGE_kmod-fs-nfs-common=y
-CONFIG_PACKAGE_kmod-fs-nfs-common-rpcsec=y
+# CONFIG_PACKAGE_kmod-fs-nfs-common-rpcsec is not set
 
 
 CONFIG_PACKAGE_luci-app-ddns=y
